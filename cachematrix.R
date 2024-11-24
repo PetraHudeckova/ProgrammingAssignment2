@@ -1,6 +1,7 @@
 ##  Function that creates a special "matrix" object that can cache 
 ##  its inverse
 
+
 makeCacheMatrix <- function(x = matrix()) {
   # getter and setter of the matrix
   set <- function(y) {
